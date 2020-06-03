@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7764e97d83c2d0f44930a5cf30454e1c, type: 3}
+  m_Name: BiomePlains
+  m_EditorClassIdentifier: 
+  biomeID: plains
+  perlinScale: 0.035
+  layers:
+  - block: {fileID: 11400000, guid: 954a7c1d58b1ed249bfbba61b8a7417f, type: 2}
+    bottomMinMax: {x: 0, y: 0}
+    topMinMax: {x: 0, y: 0}
+  - block: {fileID: 11400000, guid: 5a2d8de94c482d44991cf6b1f394b46c, type: 2}
+    bottomMinMax: {x: 1, y: 1}
+    topMinMax: {x: 57, y: 62}
+  - block: {fileID: 11400000, guid: 0971089c6f59d1645bcd7f52be4a4185, type: 2}
+    bottomMinMax: {x: 58, y: 63}
+    topMinMax: {x: 61, y: 66}
+  - block: {fileID: 11400000, guid: 93108ba8777c50a47975b00919eacca9, type: 2}
+    bottomMinMax: {x: 62, y: 67}
+    topMinMax: {x: 62, y: 67}
